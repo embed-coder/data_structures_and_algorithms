@@ -1,0 +1,11 @@
+# Unintent files
+## ignore everything
+*
+## unignores anything that is a directory. This is crucial.
+!*/
+## unignores all source files
+!*.c
+!*.cpp
+!*.h
+!*.txt
+!.gitignore
